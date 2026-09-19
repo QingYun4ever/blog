@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo:
+  logo: https://www.bing.com/th/id/ODF._4jc3r6eAV21umZcFoONog?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
   display_title: true
   display_post_title: true
   # Whether to fix navigation bar
@@ -53,17 +53,17 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: https://img.paperchan.cn/file/1789818842936_546c0dd6f04bc52741e00dd81562d16f.jpg
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: https://img.paperchan.cn/file/1789818842936_546c0dd6f04bc52741e00dd81562d16f.jpg
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: https://img.paperchan.cn/file/1776009485010_1137852.png
 
 # The banner image of index page
 index_img: https://img.paperchan.cn/file/1776009485010_1137852.png
@@ -259,7 +259,7 @@ footer:
   nav:
   owner:
     enable: true
-    since: 2025
+    since: 2026
   # Copyright of theme and framework
   copyright:
     enable: true
@@ -289,10 +289,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/PaperXiang
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到创新发展部的博客~
   card_recent_post:
     enable: true
     # If set 0 will show all
