@@ -43,7 +43,11 @@ Vibe，直译为“氛围”，那“Vibe Coding”就是“氛围编程”
 
 ![image-20260919211916903](https://img.paperchan.cn/file/1789823967460_image-20260919211916903.png)
 
+{% note %}
+
 在24年，它无疑是最好的选择，脚本无限续杯
+
+{% endnote %}
 
 ### 使用教程
 
@@ -120,7 +124,81 @@ Jio是？
 
 ## ClaudeCode
 
+老生常谈的Cli软件
+
+### 安装
+
+pwsh安装：
+
+`irm https://claude.ai/install.ps1 | iex`
+
+cmd 安装：
+
+`curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd`
+
+### 配置模型
+
+推荐使用CCSwitch工具配置，便于切换provider
+
+CCSwitch下载链接：[Github v3.20.3](https://github.com/farion1231/cc-switch/releases/download/v3.20.3/CC-Switch-v3.20.3-Windows.msi)
+
+页面如图
+
+<img src="https://img.paperchan.cn/file/1789825447535_image-20260919214401321.png" alt="image-20260919214401321" style="zoom:50%;" />
+
+### (可选)CCometixLine
+
+同样为哈雷佬制作，增加了一个footer，显示token，模型，状态等信息，如图所示
+
+![image-20260919214558881](https://img.paperchan.cn/file/1789825567748_image-20260919214558881.png)
+
+Github介绍页：[https://github.com/Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine)
+
+安装：`npm install -g @cometix/ccline`
+
+使用：
+
+在cmd/pwsh输入ccline，进行风格配置
+
+在CCSwitch配置中增加下列配置
+
+```  yaml
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/ccline/ccline",
+    "padding": 0
+  },
+```
+
 ## Pi Agent
+
+如果你怕你被ClaudeCode哪天干飞
+
+或者希望从0开始配置一个自己的agent，自己定义每一个功能，那Pi Agent一定是你的不二之选
+
+官方链接：[Pi](https://pi.dev/)
+
+Pi的一切都基于拓展（Extensions）,下面我会列出我常用的那些
+
+- Magic Context
+
+- Plan mode
+
+- Advisor
+
+- 待施工（ask questions, chat bubble,...）
+
+  
+
+### Oh My Pi (omp)
+
+一个整合了许多拓展(~~面目全非~~)的pi客户端
+
+有类似ttsr等诸多优秀功能
+
+官网：[https://omp.sh/](https://omp.sh/)
+
+安装（pwsh）：`irm https://omp.sh/install.ps1 | iex`
 
 ## Cline
 
