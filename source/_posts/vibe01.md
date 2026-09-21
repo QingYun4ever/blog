@@ -116,11 +116,7 @@ Jio是（待施工）
 
 吐槽：claude怎么还是4.6啊喂，半年了还没改
 
-## TRAE
 
-## Workbuddy
-
-大份。
 
 ## CLI类
 
@@ -129,6 +125,8 @@ Jio是（待施工）
 ## ClaudeCode
 
 老生常谈的Cli软件
+
+![image-20260919220814890](https://img.paperchan.cn/file/1789826905194_image-20260919220814890.png)
 
 ### 安装
 
@@ -198,6 +196,8 @@ Pi的一切都基于拓展（Extensions）,下面我会列出我常用的那些
 
 一个整合了许多拓展(~~面目全非~~)的pi客户端
 
+![image-20260919220726591](https://img.paperchan.cn/file/1789826857044_image-20260919220726591.png)
+
 有类似ttsr等诸多优秀功能
 
 官网：[https://omp.sh/](https://omp.sh/)
@@ -212,6 +212,25 @@ Pi的一切都基于拓展（Extensions）,下面我会列出我常用的那些
 
 ### ZCODE
 
-Zcode是智谱清言（Z.AI/BigModel）为自家GLM模型设计的harness工具
+Zcode是智谱清言（Z.AI）为GLM模型设计的harness工具
 
 9月18日被爆出自主上传用户.git目录（偷src），不建议继续使用
+
+9月21日开源至Github，未上传其核心科技
+
+我曾听闻：
+
+> 字母表上一头一尾，A\Z\一中一美。
+> A\安全吹的满天飞，Z\代码偷的满天飞。
+> A\宪法写得密密麻麻，Z\仓库打包哗啦啦啦。
+> 一个嘴上安全装清高，一个被抓现行才求饶。
+
+## TRAE
+
+待施工
+
+## Workbuddy
+
+不推荐使用
+
+国际版曾上线一段时间GPT6Astra，现多被用于反代deepseek
