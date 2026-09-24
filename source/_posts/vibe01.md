@@ -208,6 +208,22 @@ Github介绍页：[https://github.com/Haleclipse/CCometixLine](https://github.co
   },
 ```
 
+### （可选）CC Patch Box
+
+原贴：[https://linux.do/t/topic/2943577](https://linux.do/t/topic/2943577)
+
+![image](https://cdn3.ldstatic.com/optimized/4X/1/7/6/17694160f85d2e1fe094146f6d9d963b8015c2d2_2_690x275.png)
+
+安装方式：
+
+```
+ git clone https://github.com/CometixSpace/claude-code
+ cd claude-code/patcher && npm install
+ node bin/patch.mjs
+```
+
+
+
 ## Pi Agent
 
 如果你怕你被ClaudeCode哪天干飞
@@ -271,6 +287,14 @@ Zcode是智谱清言（Z.AI）为GLM模型设计的harness工具
 
 国际版曾上线一段时间GPT6Astra，现多被用于反代deepseek
 
+## Qoder
+
+积分制计费，主要提供Qwen与Deepseek模型
+
+工具：[[Qoder CLI BYOK script](https://linux.do/t/topic/2824397)](https://linux.do/t/topic/2824397/6)
+
+可用此脚本自定义模型
+
 ## 其他工具
 
 ### PowerShell7
@@ -280,4 +304,8 @@ Zcode是智谱清言（Z.AI）为GLM模型设计的harness工具
 `winget install --id Microsoft.PowerShell --source winget`
 
 ### Windows Terminal
+
+非常美观的终端管理工具，可从Microsoft Store下载
+
+![image-20260924214425592](https://img.paperchan.cn/file/1790257476192_image-20260924214425592.png)
 
