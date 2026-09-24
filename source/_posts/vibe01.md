@@ -118,6 +118,10 @@ base url如果使用社团的公益站，则如图填写
 
 OpenAI的官方客户端，有computer use等优秀功能，适合配合GPT Plus等套餐使用
 
+安装方式1（官网/MS Store）：https://openai.com/codex/
+
+安装方式2（推荐）：文末其他工具-MS Store下载工具获取msix包，解压即可使用
+
 ### 缺点
 
 本质codexcli的electron套壳，占用高，截止0919未解决，多个长对话切换会有明显卡顿
@@ -309,3 +313,22 @@ Zcode是智谱清言（Z.AI）为GLM模型设计的harness工具
 
 ![image-20260924214425592](https://img.paperchan.cn/file/1790257476192_image-20260924214425592.png)
 
+### MS Store下载工具
+
+默认微软商店（MSStore）会将软件安装至C盘
+
+可以使用此工具可获取msix安装文件，部分应用解压即可便携使用
+
+![image](https://cdn3.ldstatic.com/optimized/4X/3/c/8/3c8018ce462b9fba54a2203f7e4a8233f0cf179a_2_690x254.png)
+
+![image](https://cdn3.ldstatic.com/optimized/4X/7/9/9/7991c5976f2e345d35ddb4c79675c382b792d8f4_2_690x293.png)
+
+下载地址：[https://linux.do/uploads/short-url/rWxryBjGfKV89zZMCefVgzYNwbA.zip](https://linux.do/uploads/short-url/rWxryBjGfKV89zZMCefVgzYNwbA.zip)
+
+原贴：[https://linux.do/t/topic/2788526](https://linux.do/t/topic/2788526)
+
+> 原文引用：对于 Codex Desktop 来说
+> 这坨史本来 Electron Win10+ 就行
+> msix 就是个压缩包 解压里面就是 不需要点开安装
+> 安装会进UWP 的沙盒目录 也是非常猪的一环
+> 抠出来想放哪用放那用 本就是便携版
