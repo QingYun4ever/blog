@@ -52,11 +52,13 @@ CPA等工具反代出来的GPT Plus账户的该生图模型并不能直接调用
 
 ### GPT Image Playground
 
-开源项目，提供便捷使用的生图对话
+开源项目，提供便捷使用的图片生成与编辑
 
-项目地址：
+项目地址：[https://github.com/CookSleep/gpt_image_playground](https://github.com/CookSleep/gpt_image_playground)
 
 ### GPT Image Canvas
 
-如名，一个图像生成兼编辑的花不
+如名，一个图像生成兼编辑的花布
+
+项目地址：[https://github.com/mrslimslim/gpt-image-canvas](https://github.com/mrslimslim/gpt-image-canvas)
 

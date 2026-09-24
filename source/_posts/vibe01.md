@@ -85,7 +85,7 @@ base url如果使用社团的公益站，则如图填写
 
 ![image-20260924213648538](https://img.paperchan.cn/file/1790257020340_image-20260924213648538.png)
 
-注意gpt系列模型应手动设置上下文限制（Context token limit）为272000，同时可以开启Reasoning level切换
+注意gpt系列模型应手动设置上下文限制（Context token limit）为272000，同时可以开启Reasoning level切换，FAST快不了多少还是2.5x消耗，不要打开
 
 > GPT模型请用 OpenAI-Responses 提供商类型
 
