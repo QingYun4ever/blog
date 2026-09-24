@@ -57,6 +57,8 @@ Vibe，直译为“氛围”，那“Vibe Coding”就是“氛围编程”
 
 [补丁]: https://github.com/CometixSpace/CCursor
 
+原贴：[https://linux.do/t/topic/1957183/1](https://linux.do/t/topic/1957183/1)
+
 安装方式：
 
 `npx @cometix/ccursor install`
@@ -79,9 +81,33 @@ base url如果使用社团的公益站，则如图填写
 
 ![image-20260919212201158](https://img.paperchan.cn/file/1789824132375_image-20260919212201158.png)
 
-点击fetch，可以获取公益站的模型，点击模型选择，注意gpt系列模型应设置上下文限制（Context token limit）为272000，同时可以开启Reasoning level切换
+点击fetch，可以获取公益站的模型，点击模型名后会模糊搜索，随便点一个名称相近的便可以自动填写参数
+
+![image-20260924213648538](https://img.paperchan.cn/file/1790257020340_image-20260924213648538.png)
+
+注意gpt系列模型应手动设置上下文限制（Context token limit）为272000，同时可以开启Reasoning level切换
+
+> GPT模型请用 OpenAI-Responses 提供商类型
+
+> 非GPT模型请用 Anthropic 提供商类型
+
+> Gemini模型用Gemini
 
 <img src="https://img.paperchan.cn/file/1789824286544_image-20260919212433217.png" alt="image-20260919212433217" style="zoom:80%;" />
+
+接下来我们可以让使用更加顺畅：
+
+![image-20260924213728055](https://img.paperchan.cn/file/1790257053625_image-20260924213728055.png)
+
+像这样打开VSCode设置，搜索Orientation，改为vertical，便可以获得和vscode一样的外观了
+
+![image-20260924213825365](https://img.paperchan.cn/file/1790257116662_image-20260924213825365.png)
+
+同时为补丁能够使用，也应去Preference->Cursor Settings中，把http compatibility改为`HTTP \1.1`
+
+![image-20260924213938303](https://img.paperchan.cn/file/1790257184164_image-20260924213938303.png)
+
+
 
 ### 优点？
 
@@ -109,6 +135,16 @@ OpenAI的官方客户端，有computer use等优秀功能，适合配合GPT Plus
 Jio是（待施工）
 
 可通过一些卡网购买兑换链接，无需信用卡即可兑换套餐
+
+下载链接（需魔法）：
+
+[https://antigravity.google/download](https://antigravity.google/download)
+
+或者用安装脚本（魔法）：
+
+`irm https://antigravity.google/cli/install.ps1 | iex`(PowerShell)
+
+`curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && install.cmd && del install.cmd` (CMD)
 
 ### 优点
 
@@ -234,3 +270,14 @@ Zcode是智谱清言（Z.AI）为GLM模型设计的harness工具
 不推荐使用
 
 国际版曾上线一段时间GPT6Astra，现多被用于反代deepseek
+
+## 其他工具
+
+### PowerShell7
+
+对，也许你需要更新你的pwsh了
+
+`winget install --id Microsoft.PowerShell --source winget`
+
+### Windows Terminal
+

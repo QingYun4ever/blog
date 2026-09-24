@@ -15,6 +15,8 @@ tags:
 
 ### Tavily
 
+![image-20260923054908512](https://img.paperchan.cn/file/1790113771395_image-20260923054908512.png)
+
 Tavily是一个search/fetch api平台，每账号有1000credit/month,计费分为两种
 
 - Basic Search - 1credit
