@@ -54,11 +54,15 @@ CPA等工具反代出来的GPT Plus账户的该生图模型并不能直接调用
 
 开源项目，提供便捷使用的图片生成与编辑
 
+![image-20260924215857202](https://img.paperchan.cn/file/1790258345559_image-20260924215857202.png)
+
 项目地址：[https://github.com/CookSleep/gpt_image_playground](https://github.com/CookSleep/gpt_image_playground)
 
 ### GPT Image Canvas
 
-如名，一个图像生成兼编辑的花布
+如名，一个图像生成兼编辑的画布
+
+![GPT Image Canvas preview](https://github.com/mrslimslim/gpt-image-canvas/raw/main/docs/assets/app-preview.png)
 
 项目地址：[https://github.com/mrslimslim/gpt-image-canvas](https://github.com/mrslimslim/gpt-image-canvas)
 
