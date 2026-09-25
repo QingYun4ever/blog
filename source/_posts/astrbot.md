@@ -2,8 +2,9 @@
 title: 教程：制作一个你自己的聊天bot
 date: 2026-09-22 01:11:47
 categories:
-tags:
-
+tags: 
+- AstrBot
+- AI
 ---
 
 ## 概括

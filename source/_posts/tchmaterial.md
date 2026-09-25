@@ -2,7 +2,9 @@
 title: 工具分享-电子课本下载工具
 date: 2026-09-25 18:31:37
 categories:
+- 工具分享
 tags:
+- tchMaterial-parser
 ---
 
 ## tchMaterial-parser

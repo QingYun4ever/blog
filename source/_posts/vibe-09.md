@@ -3,6 +3,9 @@ title: Vibe杂谈-技巧
 date: 2026-09-22 01:03:12
 categories:
 tags:
+- 技巧
+- AI
+- tavily
 ---
 
 ## 前言
@@ -57,6 +60,8 @@ CPA等工具反代出来的GPT Plus账户的该生图模型并不能直接调用
 ![image-20260924215857202](https://img.paperchan.cn/file/1790258345559_image-20260924215857202.png)
 
 项目地址：[https://github.com/CookSleep/gpt_image_playground](https://github.com/CookSleep/gpt_image_playground)
+
+支持Vercel一键部署，非常方便
 
 ### GPT Image Canvas
 

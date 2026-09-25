@@ -2,10 +2,11 @@
 title: Vibe Coding 01：IDE 怎么选
 date: 2026-09-19 20:42:09
 categories:
-- AI
+- AI教程
 tags:
 - vibe coding
 - AI
+- IDE
 
 ---
 
@@ -132,13 +133,11 @@ OpenAI的官方客户端，有computer use等优秀功能，适合配合GPT Plus
 
 有一些特别渠道可以低价购买套餐到自己账号上
 
-先前有学生认证（SheerID）无限续期
+先前有学生认证（SheerID）无限续期，现在多是Jio渠道的18个月AI Pro
 
-本文非引流，介绍另外一种Jio认证方式
+Jio是一个由印度电信运营商 Jio 与 Google 联合推出的 Google One AI Premium（Google AI Pro）特别优惠活动
 
-Jio是（待施工）
-
-可通过一些卡网购买兑换链接，无需信用卡即可兑换套餐
+可通过一些卡网购买(此处不做推荐)兑换链接，无需信用卡即可兑换套餐
 
 下载链接（需魔法）：
 
@@ -154,7 +153,7 @@ Jio是（待施工）
 
 额度较3月份大砍后有明显回转，9月份gemini 3.8 flash发布，账号有充足额度使用
 
-吐槽：claude怎么还是4.6啊喂，半年了还没改
+吐槽：claude怎么还是4.6
 
 
 
